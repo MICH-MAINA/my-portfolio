@@ -1,1 +1,2 @@
-"# my-portfolio" 
+"My Portfolio"
+- Outlines my projects
