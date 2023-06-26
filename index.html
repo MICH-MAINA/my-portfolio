@@ -1,219 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio Website</title>
-    <link rel="stylesheet " href="styles.css">
-    <script src="https://kit.fontawesome.com/69f49bfefb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet " href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/69f49bfefb.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
-<body>
-    <nav class= "navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#">Port<span>folio</span></a></div>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">Port<span>folio</span></a>
         </div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about_me">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars" style="color: #9b59b6;"></i>
+        </div>
+      </div>
     </nav>
     <!--home section-->
     <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hello, my name is </div>
-                <div class="text-2">Michelle Maina </div>
-                <div class="text-3">And I'm a<span> YouTuber</span> </div>
-                <a href="#">Hire me</a>
-            </div>
+      <div class="max-width home-body">
+        <div class="home-content">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2">Michelle Maina</div>
+          <div class="text-3">And I'm a<span> Software Developer</span></div>
+          <div>
+            <a href="#contact">
+              <div
+                style="
+                  list-style: none;
+                  display: flex;
+                  justify-content: space-between;
+                "
+              >
+                <li style="padding-right: 10px">Meet for coffee</li>
+                <li>
+                  <img style="height: 25px" src="/images/latte-art.png" />
+                </li>
+              </div>
+            </a>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--about section start-->
-    <section class="about" id="about me">
-        <div class="max-width">
-            <h2 class="title">About</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img src="images/img-self.jpg" alt="">
-
-                </div>
-                <div class="column right">
-                    <div class="text">I'm Michelle and I'm a <span>Software engineer</span></div>                
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam sit amet nisl purus in mollis. Id eu nisl nunc mi ipsum faucibus vitae. Nunc mi ipsum faucibus vitae aliquet.
-                     Lacus laoreet non curabitur gravida arcu ac tortor dignissim. Vivamus at augue eget arcu dictum varius. In dictum non consectetur a erat nam at lectus. Turpis in eu mi bibendum. Consectetur libero id faucibus nisl tincidunt.
-                      Egestas dui id ornare arcu odio ut sem nulla.
-                </p>
-                
-                <a href="#">Download CV</a>
-               </div> 
+    <section class="about" id="about_me">
+      <div class="max-width">
+        <h2 class="title">About</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src="images/aboutme1.svg" style="object-fit: contain" alt="" />
+          </div>
+          <div class="column right">
+            <div class="text">
+              I'm Michelle and I'm a <span>Software Developer</span>
             </div>
+            <p>
+              Allow me to introduce myself as an enthusiastic software
+              developer. While I may still be in the early stages of my career,
+              I have a solid foundation in HTML, JavaScript, CSS, React JS for
+              front-end and python, MySQL and Node Js for my back-end. My
+              eagerness to learn and grow in this ever-evolving field is
+              limitless and I am excited to apply my skills to create innovative
+              solutions. Beyond coding I find joy in immersing myself in
+              captivating books, engaging in friendly table tennis matches, and
+              embarking in long walks that rejuvenate both my mind and body.
+              Join me on this exciting journey as i strive to make a mark in
+              this tech evolving world!!
+            </p>
+
+            <a href="files/michelle_maina_cv.pdf" download="MichelleMainaResume"
+              >Download CV</a
+            >
+          </div>
         </div>
+      </div>
     </section>
 
     <!--services section start-->
     <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title">My services</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Website Development</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                    </div>                    
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Social Media Marketing</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                    </div>                    
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">App Development</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                    </div>                    
-                </div>
-
+      <div class="max-width">
+        <h2 class="title">My services</h2>
+        <div class="serv-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-paint-brush"></i>
+              <div class="text">Website Development</div>
             </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+              <div class="text">App Development</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-chart-line"></i>
+              <div class="text">Social Media Marketing</div>
+            </div>
+          </div>
         </div>
+        <h2 class="stack" style="margin-top: 60px"></h2>
+        <div class="grid-container">
+          <div><img src="images/html.png" /></div>
+          <div><img src="images/js.png" /></div>
+          <div><img src="images/science.png" /></div>
+          <div><img src="images/python.png" /></div>
+          <div><img src="images/mysql.png" /></div>
+        </div>
+      </div>
     </section>
 
     <!--skills section start-->
     <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">My skills</h2>
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text"> My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam sit amet nisl purus in mollis. Id eu nisl nunc mi ipsum faucibus vitae. Nunc mi ipsum faucibus vitae aliquet.
-                        Lacus laoreet non curabitur gravida arcu ac tortor dignissim.</p>
-                        <a href="#">Read more</a>
-                </div>
-                <div class="column right">
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line js"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>PHP</span>
-                            <span>40%</span>
-                        </div>
-                        <div class="line php"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>MySQL</span>
-                            <span>40%</span>
-                        </div>
-                        <div class="line mysql"></div>
-                    </div>
-                </div>
+      <div class="max-width">
+        <h2 class="title">My skills</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">My creative skills & experiences.</div>
+            <p>
+              I'm skilled in React.js, JavaScript, HTML, and CSS for front-end
+              and back-end web development. With expertise in creating
+              interactive interfaces and adding dynamic functionality, I ensure
+              visually appealing web pages. I also have experience in Flutter
+              for engaging mobile app development. <br /><br />
+              I excel in Node.js and Express.js, handling data processing, API
+              integration, and database management for seamless communication in
+              server-side applications. Beyond technical skills, I possess soft
+              skills like<span id="dots">...</span
+              ><span id="more">
+                problem-solving, effective communication, collaboration,
+                organization, and adaptability. I continuously learn to stay
+                updated. <br /><br />But here's the fun part: I bring humor to
+                my work, creating enjoyable user experiences with clever
+                elements. Let's embark on a coding journey together! With my
+                expertise and a touch of fun, we'll create remarkable web and
+                mobile applications. Get ready to code with a grin
+              </span>
+            </p>
+            <button id="readMore" onclick="readMore()">Read More</button>
+          </div>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>HTML</span>
+                <span>80%</span>
+              </div>
+              <div class="line html"></div>
             </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>JavaScript</span>
+                <span>70%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>React Js</span>
+                <span>70%</span>
+              </div>
+              <div class="line react"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>Node JS</span>
+                <span>60%</span>
+              </div>
+              <div class="line node"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>MySQL</span>
+                <span>60%</span>
+              </div>
+              <div class="line mysql"></div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!--Project section-->
-    <section class="teams" id="teams">
-        <div class="max-width">
-            <h2 class="title">Projects</h2>
-            <div class="carousel">
-                <div class="card box">
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-<!--contact section start-->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact me</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid facere quaerat in molestias nam veniam libero architecto perspiciatis sapiente cumque.</p>
-                    <div class="icons">
-                        <div class="row">
-                           <i class="fas fa-user"></i>
-                           <div class="info">
-                               <div class="head">Name</div>
-                               <div class="sub-title">Michelle wangui</div>
-                           </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">Nairobi, Kenya</div>
-                            </div>
-                         </div>
-                         <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">michellewangui8@gmail.com</div>
-                            </div>
-                         </div>
-                    </div>
-                </div>
-                <div class="column right">
-                    <div class="text">Message me</div>
-                    <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
-                            </div>
-                        <div class="field ">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Describe project.."></textarea>
-                        </div>
-                        <div class="button">
-                            <button type="submit">Send message</button>
-                        </div>
-                    
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="projects" id="projects">
+      <div class="max-width">
+        <h2 class="title">Projects</h2>
 
+        <div class="cardBox">
+          <div class="card">
+            <img src="images/weatherProject.jpg" alt="" />
+            <div class="text">Weather Application</div>
+          </div>
+
+          <div class="card">
+            <img src="images/dashboard.png" />
+            <div class="text">Business Expense Tracker App</div>
+          </div>
+
+          <div class="card">
+            <img src="images/auctionProject-removebg-preview.png" />
+            <div class="text">Auction Application</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact section start-->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Get in Touch</div>
+            <p>
+              Hey there! 🌟 <br/><br/>
+              Thanks for checking out my profile! If you're as
+              excited about all things tech and development as I am, I'd love to
+              connect with you. Whether you want to discuss the latest trends in
+              front-end frameworks, brainstorm new project ideas, or simply geek
+              out over coding, I'm all ears! <br/><br/>
+              Feel free to drop me a line on my email. Let's grab a
+              virtual coffee and dive into the wonderful world of web
+              development together. <br/><br/>
+              Looking forward to hearing from you soon!<br/><br/>
+              Keep coding and stay awesome! 💻✨
+            </p>
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Michelle Maina</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="sub-title">Nairobi, Kenya</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">michellewangui8@gmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <div class="text">Message me</div>
+            <form action="#">
+              <div class="fields">
+                <div class="field name">
+                  <input type="text" placeholder="Name" required />
+                </div>
+                <div class="field email">
+                  <input type="email" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Subject" required />
+              </div>
+              <div class="field textarea">
+                <textarea
+                  name=""
+                  id=""
+                  cols="50"
+                  rows="4"
+                  placeholder="Describe project.."
+                ></textarea>
+              </div>
+
+              <button class="button" type="submit">Send message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="script.js"></script>
+    <!-- <script>
+      function readMore() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementsByClassName("read-more");
 
-</body>
+        if (dots.style.display === "none") {
+          dots.style.display === "inline";
+          btnText.innerHTML === "Read More";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script> -->
+  </body>
 </html>
